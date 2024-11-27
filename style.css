@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.header .menu-item{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 100px;
+    padding-left: 30px;
+    font-weight: 300;
+}
+
+.content {
+    padding: 30px;
+    border-bottom: 1px solid black;
+}
+
+.content .btn-add {
+    color: #fff;
+    background-color: green;
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.content .tbl-data {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+.content .tbl-data tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.content .tbl-data th {
+    text-align: left;
+}
+
+.content .tbl-data th, td {
+    padding: 8px 0;
+}
+
+.footer .footer-heading {
+    text-align: center;
+    margin-top: 32px;
+}
